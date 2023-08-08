@@ -14,12 +14,15 @@ importers:
       '@j2e/j2e-loaders': workspace:*
       '@j2e/j2e-plugins': workspace:*
       '@tsconfig/docusaurus': ^1.0.6
+      '@types/node': ^20.4.8
       '@types/react': ^18.0.28
       clsx: ^1.2.1
       eslint: ^8.0.0
       react: ^18.2.0
       react-dom: ^18.2.0
       rimraf: ^4.1.2
+    dependencies:
+      '@types/node': 20.4.8
     devDependencies:
       '@applint/spec': 1.2.3_eslint@8.46.0
       '@changesets/cli': 2.26.2
@@ -4077,7 +4080,6 @@ packages:
 
   /@types/node/20.4.8:
     resolution: {integrity: sha512-0mHckf6D2DiIAzh8fM8f3HQCvMKDpK94YQ0DSVkfWTG9BZleYIWudw9cJxX8oCk9bM+vAkDyujDV6dmKHbvQpg==}
-    dev: true
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -4151,7 +4153,7 @@ packages:
   /@types/sax/1.2.4:
     resolution: {integrity: sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 20.4.8
     dev: true
 
   /@types/scheduler/0.16.3:
