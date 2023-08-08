@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["ESNext"],
+    "allowJs": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

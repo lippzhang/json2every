@@ -1,0 +1,34 @@
+{
+  "name": "json2every",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "pnpm packages:start & pnpm docs:start",
+    "build": "pnpm packages:build && pnpm docs:build",
+    "packages:start": "pnpm --parallel -r run start",
+    "packages:build": "pnpm -r run build",
+    "docs:start": "ice-pkg start",
+    "docs:build": "ice-pkg build",
+    "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx ./",
+    "eslint:fix": "pnpm eslint --fix"
+  },
+  "devDependencies": {
+    "@applint/spec": "^1.0.0",
+    "@changesets/cli": "^2.26.2",
+    "@docusaurus/module-type-aliases": "^2.3.1",
+    "@docusaurus/theme-classic": "^2.3.1",
+    "@ice/pkg": "^1.5.0",
+    "@ice/pkg-plugin-docusaurus": "^1.4.3",
+    "@j2e/j2e-core": "workspace:*",
+    "@j2e/j2e-loaders": "workspace:*",
+    "@j2e/j2e-plugins": "workspace:*",
+    "@tsconfig/docusaurus": "^1.0.6",
+    "@types/react": "^18.0.28",
+    "clsx": "^1.2.1",
+    "eslint": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^4.1.2"
+  },
+  "packageManager": "pnpm@7.22.0"
+}
